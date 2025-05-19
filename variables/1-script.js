@@ -23,6 +23,8 @@ console.log(customerID);*/
 //var customerID = 30;    
 //console.log(customerID);
 
+
+
 //const num=[1,2,3];
 //console.log(num);
 
@@ -37,6 +39,8 @@ console.log(age);
 console.log(discount);
 console.log(customerName);
 
+let customerID = 40;
+window.alert(customerID);
 
 
 /*STRING DATA TYPES*/

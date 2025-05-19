@@ -13,7 +13,7 @@ console.log(mixed);
 console.log(MovieNames);*/
 
 let moreAboutBooks = ["Harry Potter", "The Hobbit",
-    "The lord of the rings",
+    "surendra",
     1,
     true,
     null,
@@ -26,6 +26,7 @@ let moreAboutBooks = ["Harry Potter", "The Hobbit",
     }
 ];
 console.log(moreAboutBooks);
-console.log(moreAboutBooks[0]); // Accessing the first element
+console.log(moreAboutBooks[4]); // Accessing the first element
 console.log(moreAboutBooks[2][1]); // Accessing the second element */
+
 
