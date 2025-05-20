@@ -52,16 +52,25 @@ console.log(person.Aaddress); // Accessing the object
 // Array which contains the collection of objects.
 // Example:
 
-let cars =
+let cars = [
     {
-       brand : "BMW",
-       model : "Bangalore",
-       year :2000,
+        brand: "BMW",
+        model: "X5",
+        year: 2020
+    },
+    {
+        brand: "Audi",
+        model: "A6",
+        year: 2019
+    },
+    {
+        brand: "Mercedes",
+        model: "C-Class",
+        year: 2021
 
 
     }
-
-
-console.log(cars.brand);
-console.log(cars.model);
-console.log(cars.year);
+];
+console.log(cars[0].brand); // Accessing the brand of the first car
+console.log(cars[1].model); // Accessing the model of the second car    
+console.log(cars[2].year); // Accessing the year of the third car
