@@ -1,11 +1,11 @@
-/*this.authorName = ["surendra","suresh","lucky"];
+this.authorName = ["surendra","suresh","lucky"];
 this.books = ["harry potter","lord of the rings","game of thrones"];
 
 this.bookDetails = function() {
     return books;
 
 }
-console.log(this);*/
+console.log(this);
 
 //object context
 
@@ -22,3 +22,20 @@ var obj = {
     }
 }
 obj.getBookDetails();
+
+var worker = {
+    Name  :"suri",
+    age:23,
+    dateofbirth : "april 6,2001",
+    employee:["surendra","suresh","lucky"],
+    employeecount :function(){
+        //console.log("total employees are 3");
+        return "total employee are 3"
+  }
+
+}
+console.log(worker.Name);
+console.log(worker.age);
+console.log(worker.dateofbirth);
+console.log(worker.employeecount());
+//console.log(employee);
