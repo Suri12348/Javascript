@@ -23,7 +23,7 @@ switch (isanyOTTplatform) {
 
 }*/
 // year in how many months
-let months = 1;
+/*let months = 1;
 
 switch (months) {
     case 1: {
@@ -77,13 +77,13 @@ switch (months) {
     }
 }
 
-/*// Add two numbers
+// Add two numbers
 let x = 4;
 let y = 3; {
     if (x + y); {
         console.log("Add this two numbers", x + y);
     }
-}
+}*/
 
 // check Even or odd numbers
 
@@ -95,7 +95,7 @@ if (23){
 else if(20){
     console.log("this is Evennumber");
 
-}*/
+}
     
 
 
