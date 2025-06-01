@@ -148,13 +148,16 @@ courses(function(){
     console.log(Names);
 })*/
 
-function courses(names){
-    names();
-    console.log(names);
+function Employee(names){
+    names("Surendra","Suresh","Lucky");
+    
 
 }
-courses(function(){
-    let Names= ["java","python",".Net"];
-    console.log(Names);
+Employee(function(EmployeeName1,EmployeeName2,EmployeeName3){
+   
+    console.log(EmployeeName1);
+    console.log(EmployeeName2);
+    console.log(EmployeeName3);
+
 })
 
