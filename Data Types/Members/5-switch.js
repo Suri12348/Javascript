@@ -23,7 +23,7 @@ switch (isanyOTTplatform) {
 
 }*/
 // year in how many months
-/*let months = 1;
+/*let months =3;
 
 switch (months) {
     case 1: {
@@ -45,40 +45,40 @@ switch (months) {
     }
     case 5: {
         console.log("may");
-        break;
+        break
     }
     case 6: {
         console.log("Jume");
-        break;
+        
     }
     case 7: {
         console.log("July");
-        break;
+        
     }
     case 8: {
         console.log("August");
-        break;
+        
     }
     case 9: {
         console.log("September");
-        break;
+        
     }
     case 10: {
         console.log("Octomber");
-        break;
+        
     }
     case 11: {
         console.log("November");
-        break;
+        
     }
     case 12: {
         console.log("Desember");
-        break;
+        
     }
-}
+}*/
 
 // Add two numbers
-let x = 4;
+/*let x = 4;
 let y = 3; {
     if (x + y); {
         console.log("Add this two numbers", x + y);
@@ -87,7 +87,7 @@ let y = 3; {
 
 // check Even or odd numbers
 
-let checkEvenOdd = 23;
+/*let checkEvenOdd = 23;
 if (23){
     console.log("this is even number",20);
 
@@ -95,7 +95,17 @@ if (23){
 else if(20){
     console.log("this is Evennumber");
 
+}*/
+let fruit ="Mango";
+     fruit="apple"
+switch (fruit){
+    case "mango":{
+        console.log("it is a Mango");
+        break;
+        }
+        case  "apple":{
+            console.log("it is apple");
+        }
 }
-    
 
 

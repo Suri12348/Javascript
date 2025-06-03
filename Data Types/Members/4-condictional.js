@@ -1,7 +1,7 @@
 //condictional statement
 //true or false -->boolean type-->primitive datatypes
 
-if (true) {
+/*if (true) {
     console.log("GmailId", "surendra31440@gmail.com");
     console.log("userName", "surendra");
     console.log("password", "surendra123");
@@ -65,8 +65,29 @@ let x= 10;
 let y=20;
 if(x+y){
     console.log("add two numbers",x+y);
-}
+}*/
+//condictional Statement
+let hotels = "closed";
 
+let Restaurent1 ="byriyani";
+let Restaurent2 ="chicken";
+let restaurent3 =" eggs";
+
+switch (hotels){
+    case Restaurent1:{
+        console.log("byriyani is a Very Testy");
+    }
+    break;
+    case Restaurent2 :{
+        console.log("chicken Quantity is good")
+    }
+    break;
+    default :{
+        console.log("Restarunt is closed");
+    }
+
+
+}
 
 
 
