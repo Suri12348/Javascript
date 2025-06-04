@@ -18,6 +18,10 @@ finally{
 let name ="surNdra";
 console.log(name.toUpperCase());
 
+//lowercase
+let Name= "SURENDRA";
+console.log(Name.toLowerCase());
+
 
 try {
     name = "surendra";
