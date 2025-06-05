@@ -7,6 +7,8 @@ for(let step =0; step<4; step= step+1){
     console.log(`${step+1} SJC (B.E) successfully completed `);
 
 }
+
+
 //for of loop
 let fruitboule=[
     {fruitinbox:1,fruitName:"Apple"},
