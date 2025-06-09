@@ -1,4 +1,4 @@
-//forloop
+/*//forloop
 for(var step =0; step <6; step= step+1){
     console.log(`${step+1} time(s) circle is completed`);
 }
@@ -86,4 +86,25 @@ while(employeeposition < 5){
     console.log(employeeList[employeeposition].employeeName);
     employeeposition=employeeposition +1;
 
+}*/
+//do-while loop
+let booklist=[
+{Bookposition:1,bookName:"english"},
+{Bookposition:2,bookName:"hind"},
+{Bookposition:3,bookName:"physics"},
+{Bookposition:4,bookName:"chemistry"},
+{Bookpositiion:5,bookName:"history"},
+]
+let bookpositon = 0;
+do{
+
+let book= booklist[bookpositon];
+if (book.bookName =="english");{
+console.log("i red english");
 }
+
+ bookpositon=  bookpositon+1;
+}while ( bookpositon  <4)
+
+
+
